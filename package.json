@@ -1,0 +1,24 @@
+{
+  "name": "plop-sync",
+  "version": "0.1.1",
+  "description": "",
+  "main": "proxy.js",
+  "dependencies": {
+    "connect-logger": "~0.0.1",
+    "http-proxy": "~0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/genuinegreg/plop-sync.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/genuinegreg/plop-sync/issues"
+  },
+  "homepage": "https://github.com/genuinegreg/plop-sync"
+}
