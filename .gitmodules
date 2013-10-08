@@ -1,6 +1,7 @@
-[submodule "btsync-saas-client"]
-	path = btsync-saas-client
-	url = git@github.com:genuinegreg/plop-sync-client.git
-[submodule "btsync-saas-server"]
-	path = btsync-saas-server
-	url = git@github.com:genuinegreg/plop-sync-server.git
+[submodule "client"]
+    path = client
+    url = git@github.com:genuinegreg/plop-sync-client.git
+[submodule "server"]
+    path = server
+    url = git@github.com:genuinegreg/plop-sync-server.git
+
