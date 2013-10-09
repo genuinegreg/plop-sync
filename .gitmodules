@@ -8,3 +8,6 @@
 [submodule "docker-btsync"]
 	path = docker-btsync
 	url = git@github.com:genuinegreg/plop-sync-docker-btsync.git
+[submodule "dockerfile"]
+	path = dockerfile
+	url = git@github.com:genuinegreg/dockerfile.git

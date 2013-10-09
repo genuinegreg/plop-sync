@@ -1,8 +1,10 @@
 #!/bin/bash
 
 
+git submodule init
+git submodule update
+
 echo "Build docker images"
-git clone git@github.com:genuinegreg/dockerfile.git
 cd dockerfile
 ./build.sh
 
