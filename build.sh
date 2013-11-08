@@ -4,11 +4,14 @@
 git submodule init
 git submodule update
 
-echo "Build docker images"
-cd dockerfile
-./build.sh
+if [ "$1" -eq "-a"] 
+	then
+		echo "Build docker images"
+		cd dockerfile
+		./build.sh
 
-cd ../
+		cd ../
+fi
 
 echo "Build plop-sync btsync image"
 docker build -t genuinegreg/plop-btsync docker-btsync
