@@ -22,7 +22,7 @@ server: forcelook
 	make -C server
 
 docker-btsync: forcelook
-	docker build -t genuinegreg/plop-btsync docker-btsync
+	docker build -rm -t genuinegreg/plop-btsync docker-btsync
 	# FIXME: git rev runing in plop-sync repo and not un plop-sync-docker-btsync
 	docker tag genuinegreg/plop-btsync genuinegreg/plop-btsync\:$(GIT_REV)
 
